@@ -1,0 +1,37 @@
+{
+"ATTRIBUTES":[
+{"attr":"dc:identifier"},
+{"attr":"dc:type"},
+{"attr":"rtc_cm:projectArea"},
+{"attr":"dc:title"},
+{"attr":"rtc_cm:filedAgainst"},
+{"attr":"rtc_cm:plannedFor"},
+{"attr":"dc:description"},
+{"attr":"rtc_cm:ownedBy"},
+{"attr":"dc:subject"},
+{"attr":"oslc_cm:priority"},
+{"attr":"oslc_cm:severity"},
+{"attr":"rtc_cm:com.ibm.team.apt.attribute.complexity"},
+{"attr":"rtc_cm:estimate"},
+{"attr":"rtc_cm:due"},
+{"attr":"rtc_cm:state"},
+{"attr":"dc:creator"},
+{"attr":"dc:created"}
+],
+"WORKITEMS":[
+{"dc:identifier":"","dc:type":"com.ibm.team.apt.workItemType.epic","rtc_cm:projectArea":"_Lnn-YCGGEeaswJBGiZNreg","dc:title":"test title epic 1","rtc_cm:filedAgainst":"_j1URcCGGEeaswJBGiZNreg","rtc_cm:plannedFor":"_wHVctiGGEeaswJBGiZNreg","dc:description":"test des epic 1","rtc_cm:ownedBy":"_r-qpECGEEeaKr6Xoy9ubbA","dc:subject":"tag1","oslc_cm:priority":"priority.literal.l11","oslc_cm:severity":"severity.literal.l5","rtc_cm:com.ibm.team.apt.attribute.complexity":"0","rtc_cm:estimate":"2419200000","rtc_cm:due":"2016-07-20T17:00:00.000Z","rtc_cm:state":"","dc:creator":"","dc:created":""},
+{"dc:identifier":"","dc:type":"com.ibm.team.apt.workItemType.story","rtc_cm:projectArea":"_Lnn-YCGGEeaswJBGiZNreg","dc:title":"test title story 1_1","rtc_cm:filedAgainst":"_j1lXMSGGEeaswJBGiZNreg","rtc_cm:plannedFor":"_wHVctyGGEeaswJBGiZNreg","dc:description":"test des story 1_1","rtc_cm:ownedBy":"_DMgCYCIZEeapxvNlgvlIDg","dc:subject":"tag2","oslc_cm:priority":"priority.literal.l07","oslc_cm:severity":"severity.literal.l4","rtc_cm:com.ibm.team.apt.attribute.complexity":"20","rtc_cm:estimate":"259200000","rtc_cm:due":"2016-06-30T17:00:00.000Z","rtc_cm:state":"","dc:creator":"","dc:created":""},
+{"dc:identifier":"","dc:type":"task","rtc_cm:projectArea":"_Lnn-YCGGEeaswJBGiZNreg","dc:title":"test title task 1_1_1","rtc_cm:filedAgainst":"_j1t6ECGGEeaswJBGiZNreg","rtc_cm:plannedFor":"_wHVcsCGGEeaswJBGiZNreg","dc:description":"test des task 1_1_1","rtc_cm:ownedBy":"_GqZFkCIZEeapxvNlgvlIDg","dc:subject":"tag3","oslc_cm:priority":"priority.literal.l02","oslc_cm:severity":"severity.literal.l3","rtc_cm:com.ibm.team.apt.attribute.complexity":"0","rtc_cm:estimate":"172800000","rtc_cm:due":"","rtc_cm:state":"","dc:creator":"","dc:created":""},
+{"dc:identifier":"","dc:type":"task","rtc_cm:projectArea":"_Lnn-YCGGEeaswJBGiZNreg","dc:title":"test title task 1_1_2","rtc_cm:filedAgainst":"_j1t6ECGGEeaswJBGiZNreg","rtc_cm:plannedFor":"_wHVcsSGGEeaswJBGiZNreg","dc:description":"test des task 1_1_2","rtc_cm:ownedBy":"_KFLxcCIZEeapxvNlgvlIDg","dc:subject":"tag4","oslc_cm:priority":"priority.literal.l02","oslc_cm:severity":"severity.literal.l2","rtc_cm:com.ibm.team.apt.attribute.complexity":"0","rtc_cm:estimate":"86400000","rtc_cm:due":"","rtc_cm:state":"","dc:creator":"","dc:created":""},
+{"dc:identifier":"","dc:type":"com.ibm.team.apt.workItemType.story","rtc_cm:projectArea":"_Lnn-YCGGEeaswJBGiZNreg","dc:title":"test title story 1_2","rtc_cm:filedAgainst":"_j10nwCGGEeaswJBGiZNreg","rtc_cm:plannedFor":"_wHVcsiGGEeaswJBGiZNreg","dc:description":"test des story 1_2","rtc_cm:ownedBy":"_MC9FsCIZEeapxvNlgvlIDg","dc:subject":"tag5","oslc_cm:priority":"priority.literal.l07","oslc_cm:severity":"severity.literal.l4","rtc_cm:com.ibm.team.apt.attribute.complexity":"40","rtc_cm:estimate":"172800000","rtc_cm:due":"2016-07-14T17:00:00.000Z","rtc_cm:state":"","dc:creator":"","dc:created":""},
+{"dc:identifier":"","dc:type":"task","rtc_cm:projectArea":"_Lnn-YCGGEeaswJBGiZNreg","dc:title":"test title task 1_2_1","rtc_cm:filedAgainst":"_j178gCGGEeaswJBGiZNreg","rtc_cm:plannedFor":"_wHVcsyGGEeaswJBGiZNreg","dc:description":"test des task 1_2_1","rtc_cm:ownedBy":"_OAko8CIZEeapxvNlgvlIDg","dc:subject":"tag6","oslc_cm:priority":"priority.literal.l02","oslc_cm:severity":"severity.literal.l3","rtc_cm:com.ibm.team.apt.attribute.complexity":"0","rtc_cm:estimate":"172800000","rtc_cm:due":"","rtc_cm:state":"","dc:creator":"","dc:created":""}
+],
+"LINKTYPES":[
+{"0":"undefined","1":"com.ibm.team.workitem.linktype.parentworkitem.children","2":"NA","3":"NA","4":"com.ibm.team.workitem.linktype.parentworkitem.children","5":"NA"},
+{"0":"com.ibm.team.workitem.linktype.parentworkitem.parent","1":"undefined","2":"com.ibm.team.workitem.linktype.parentworkitem.children","3":"com.ibm.team.workitem.linktype.parentworkitem.children","4":"NA","5":"NA"},
+{"0":"NA","1":"com.ibm.team.workitem.linktype.parentworkitem.parent","2":"undefined","3":"NA","4":"NA","5":"NA"},
+{"0":"NA","1":"com.ibm.team.workitem.linktype.parentworkitem.parent","2":"NA","3":"undefined","4":"NA","5":"NA"},
+{"0":"com.ibm.team.workitem.linktype.parentworkitem.parent","1":"NA","2":"NA","3":"NA","4":"undefined","5":"com.ibm.team.workitem.linktype.parentworkitem.children"},
+{"0":"NA","1":"NA","2":"NA","3":"NA","4":"com.ibm.team.workitem.linktype.parentworkitem.parent","5":"undefined"}
+]
+}
