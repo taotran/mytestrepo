@@ -1,0 +1,55 @@
+(A)
+Gross Basic Salary/Lƣơng cơ bản
+21,000,000
+Working hours / Giờ công
+Basic Salary/Lương cơ bản
+(B)
+Total Income/Tổng thu nhập
+19,560,909
+Actual salary/Lương thực tế
+19,090,909
+160.00
+Parking Allowance/Phụ cấp gởi xe
+120,000
+Meal allowance/Phụ cấp tiền cơm
+350,000
+(C)
+Benefit for tax purpose/Phúc lợi chịu thuế TNCN
+3,625,089
+Marsh Insurance/Bảo hiểm sức khỏe cho người thân
+3,625,089
+(D)
+Tax exemption/Thu nhập miễn thuế
+350,000
+Meal allowance/Phụ cấp tiền cơm
+350,000
+(E)
+Taxable income (B+C-D)/Thu nhập chịu thuế
+22,835,998
+(F)
+Tax deduction/Giảm trƣớc khi tính thuế
+11,205,000
+1. Personal deduction/Giảm trừ bản thân
+9,000,000
+2. Dependants deduction/Giảm trừ cho người phụ thuộc
+-
+3. Social, Health and Unemployment/BHXH, BHYT, BHTN
+Insurance 10.5% paid by employee/10.5% chi trả bởi nhân viên
+2,205,000
+(G)
+Assessable Income/Thu nhập tính thuế (E-F)
+11,630,998
+(H)
+PIT monthly/Thuế thu nhập
+994,650
+(I)
+Added payment/Các khoản cộng khác
+-
+(J)
+Deduction/Các khoản trừ
+15,000
+Union fee/ Phí Công Đoàn
+15,000
+(L) Net Take Home/Thực lãnh (B-F3-H+I-J)
+16,346,259
+Remark/Ghi
