@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Automatic Workitem Creation" height="700" scrolling="true"></ModulePrefs>
+    <Content type="html">        
+<![CDATA[
+<!DOCTYPE html>
+        <html>
+            <head>
+                <title>Automatic Workitem Creation</title>
+                <meta charset="utf-8">
+                    <script src="jquery-2.1.4.min.js">jQuery</script>
+                    <script src="com.bosch.rtc.autocreateworkitem.js"></script>
+                    <link rel="stylesheet" href="com.bosch.rtc.autocreateworkitem.css">
+            </head>
+            <body>
+                <a id="Template-download-path" style="display: none;"></a>
+                <div class="container">
+                    <div id="main-display">
+                        <ul class="slideuptabs blue">
+                            <li><a id="Column-display">
+                                    <span>Column Display</span>
+                            </a></li>
+                            <li><a id="Template">
+                                    <span>Template</span>
+                            </a></li>
+                        </ul>
+                        <div id="COLUMN-DISPLAY-TABLE">
+                            <div>
+                                <button id="button-cd-apply-setting">Apply the new setting</button>
+                                <button id="button-cd-cancel">Cancel</button>
+                            </div>
+                            <table id="PRESENT-ATT-TABLE" class="column-display left">
+                                <caption align="bottom" style="text-align: left;">
+                                    <text class="highlight">
+                                        <img src="/extensions/com.bosch.rtc.autocreateworkitem/img/delete-button.gif"/> Remove all chosen Attributes</text>
+                                    <text class="highlight">
+                                        <img src="/extensions/com.bosch.rtc.autocreateworkitem/img/move-up.png"/> Move Up</text>
+                                    <text class="highlight">
+                                        <img src="/extensions/com.bosch.rtc.autocreateworkitem/img/move-down.png"/> Move Down</text>
+                                </caption>
+                                <tr>
+                                    <th class="header">Result Columns</th>
+                                </tr>
+                            </table>
+                            <table id="ALL-ATT-TABLE" class="column-display right">
+                                <caption align="bottom" style="text-align: left;">
+                                    <text class="highlight">
+                                        <img src="/extensions/com.bosch.rtc.autocreateworkitem/img/add.gif"/>Add all chosen Attributes</text>
+                                </caption>
+                                <tr>
+                                    <th class="header">All Attributes</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="TEMPLATE-CONFIG">
+                            <div>
+                                <input id="local-file-path" type="file">
+                                <button id="button-load-template">Load Template from local File</button>
+                                <button id="button-save-template">Save Template to File</button>
+                            </div>
+                        </div>
+                        <table id="NEW-WI-TABLE" class="auto-layout">
+                            <caption>
+                                <strong>New Workitems</strong>
+                            </caption>
+                            <tr class="header">
+                                <th/>
+                            </tr>
+                        </table>
+                        <button id="button-create-new-workitem">Create New Workitem</button>
+                        <table id="EXISTING-WI-TABLE" class="auto-layout">
+                            <caption>
+                                <strong>Existing Workitems</strong>
+                            </caption>
+                            <tr class="header">
+                                <th/>
+                            </tr>
+                        </table>
+                        <input type="text" id="textbox-workitem-id" value="">
+                            <button id="button-fetch-existing-workitem">Get Existing Workitem</button>
+                            <table id="LINK-MATRIX-TABLE" class="link-type-matrix auto-layout">
+                                <caption>
+                                    <strong>Link Type Matrix</strong>
+                                    <span id="button-refresh-link-matrix" class="button-img" style="display: inline-block; width: 16px; height: 16px; background: transparent url(/extensions/com.bosch.rtc.autocreateworkitem/img/jazz-common.png) -34px -181px ;"></span>
+                                </caption>
+                                <tr class="header">
+                                    <th/>
+                                </tr>
+                            </table>
+                            <button class="right" id="button-create-update-wi">Create-Update Workitems</button>
+                    </div>
+                    <div id="step2">
+
+                    </div>
+                    <div id="status">
+                        <div id="status-text">
+                        </div>
+                        <div style="display: none;" id="progress">
+                            <div>
+                                <progress id="progress-bar" value="0" max="100"></progress>
+                                <span id="progress-text"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+        ]]>
+    </Content>
+</Module>
